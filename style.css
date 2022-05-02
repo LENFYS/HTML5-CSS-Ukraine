@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body{
+  font-family: 'Nunito', sans-serif;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+
+#navbar {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 5px;
+  width: 100%;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+#navbar a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  display: block;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.scale:hover{
+  transform: scale(1.02); /* Увеличиваем масштаб */
+  transition: 0.5s; /* Время эффекта */
+}
+
+.another:hover {
+  background-color: rgb(255, 157, 164);
+  border-radius: 10x;
+  transform: scale(1.008); /* Увеличиваем масштаб */
+  transition: 0.5s; /* Время эффекта */
+}
+
+#navbar a.active {
+  background-color: #5e5eff;
+  color: rgb(251, 255, 37);
+}
+
+.someleft{
+  margin-left: 3px;
+}
+
+#logo1{
+  position: fixed;
+  left: 15px;
+  top: 6px;
+}
+
+#leftposnav1{
+  position: relative;
+  left: 85px;
+}
+
+.leftposnav2{
+  position: relative;
+  left: 105px;
+}
+
+#leftposnav3{
+  position: relative;
+  left: 125px;
+}
+
+
+.header{
+  position: absolute;
+  top: 86px;
+  left: 425px;
+  max-width: 800px;
+}
+
+.card{
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 70px;
+    max-width: 700px;
+    margin-top: 100px;
+    border-color: black;
+    text-align: center;
+    border-width: 1px;
+
+}
+
+.card:hover{
+  transform: scale(1.05); /* Увеличиваем масштаб */
+  transition: 0.1s; /* Время эффекта */
+}
+
+.gray{
+  background-color: rgb(206, 229, 255);
+}
+
+.sticky {
+  position: fixed;
+  width: 1000px;
+  height: 52px;
+}
+
+.alert {
+  padding: 10px;
+  left: 500px;
+  top: 10px;
+  position: absolute;
+  background-color: #ff6464; /* Red */
+  color: white;
+  transform: scale(1.008); /* Увеличиваем масштаб */
+  transition: 0.5s; /* Время эффекта */
+  margin-bottom: 15px;
+  font-weight: bold;
+  border-radius: 75px;
+  width: 600px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+
+.news1{
+  position: absolute;
+  top: 500px;
+  left: 350px;
+  text-align: center;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+#logo2{
+  position: relative;
+  top: 0px;
+  left: 140px;
+}
