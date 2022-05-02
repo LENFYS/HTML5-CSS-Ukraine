@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ukrainian Truth</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link rel="icon" type="image/x-icon" href="/img/brt.png">
+    <style>
+        .footer {
+            position: fixed;
+            opacity: 70%;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(102, 32, 32);
+            color: white;
+            text-align: center;
+            height: 40px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <style>
+        body {
+            -ms-user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+    </style>
+
+    <div class="header card gray">
+        <h2>Greetings! We're ukrainians, we're still fighting for our freedom in Eastern Europe against Russian
+            Federation. And now, our press is sharing truth information abous war in Ukraine since 24.02.2022 We're
+            really hope that you will like this web-page.</h2>
+        <p>Powered by LENFYS</p>
+
+    </div>
+
+    <div class="news1">
+        <img class="scale" src="img/1.jpg" width="900px" height="500px">
+        <p>Mariupol (Before Invasion / After)</p>
+    </div>
+
+    <div id="navbar">
+        <img id="logo1" src="img/idol.png" width="40px" height="50x">
+        <a id="leftposnav1" class="active bold another" href="#home">HOME</a>
+        <a class="leftposnav2 someleft another" href="#news">DEVLOG</a>
+        <a id="leftposnav3" class="another" href="#contact">CONTACT</a>
+        <a href="ukraine.html"><img id="logo2" src="img/logo.png" width="40px" height="30px"></a>
+        <script>
+            window.onscroll = function () { myFunction() };
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+    </div>
+    <div class="footer">
+        <p>All rights are reserved by private person @LENFYS. 2022 ©</p>
+    </div>
+</body>
+
+</html>
